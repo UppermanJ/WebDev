@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+
+    <h1>Race Registration!</h1>
+
+    <form action="">
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required>
+        </div>
+        <div>
+            <p>
+                <label for="raceType">Select a Race:</label>
+            </p>
+            <div>
+                <input type="radio" name="raceType" id="funRun" value="funRun" required>
+                <label for="funRun">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="raceType" id="halfMarathon" value="halfMarathon" required>
+                <label for="halfMarathon">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="raceType" id="fullMarathon" value="fullMarathon" required>
+                <label for="fullMarathon">Full Marathon</label>
+            </div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age" required>
+                <option value="under18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+        <button>
+            Register!
+        </button>
+    </form>
+
+</body>
+</html>

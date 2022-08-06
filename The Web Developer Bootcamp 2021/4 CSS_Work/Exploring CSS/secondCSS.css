@@ -1,0 +1,26 @@
+h1{
+    text-align: left;
+    font-weight: normal;
+    text-decoration: red underline dotted 2px;
+    line-height: 2;
+    letter-spacing: 9px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Segoe UI, Futura, sans-serif;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    font-weight: strong;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}

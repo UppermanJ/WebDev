@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #151b29;
+}
+
+
+nav{
+    height: fit-content;
+    background-color: #151b29;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+
+}
+
+.Login{
+    display: inline;
+}
+
+.content{
+    display: inline;
+}
+
+button{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1 em;
+    transition: all 0.25s;
+}
+
+p{
+    color: white;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    /* transform: translateY(-0.25em); */
+    cursor: pointer;
+}

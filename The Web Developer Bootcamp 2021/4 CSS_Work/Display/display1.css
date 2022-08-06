@@ -1,0 +1,22 @@
+h1{
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+}
+
+span{
+    background-color: rgb(147, 204, 90);
+    border: 1px solid black;
+    display: block;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 20px;
+
+}

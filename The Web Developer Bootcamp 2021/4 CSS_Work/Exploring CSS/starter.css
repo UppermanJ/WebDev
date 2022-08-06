@@ -1,0 +1,115 @@
+
+
+h1, h2 {
+    color: #2a9d8f;
+}
+
+.title{
+    color: rgb(198, 46, 209);
+}
+
+.inline{
+    color: rgb(39, 202, 142);
+}
+
+.post a{
+    background-color: #ef476f;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer > a{
+    color: white;
+}
+
+input[type="password"]{
+    color: crimson;
+}
+
+
+
+
+.post:nth-of-type(n){
+
+    background-color: #fce774;
+}
+
+.post:nth-of-type(2n){
+
+    background-color: #c7af27;
+}
+
+h2::first-letter{
+    font-size: 30px;
+}
+
+p::first-line{
+    color: aqua;
+}
+
+
+a[href*="google"]{
+    color: rgb(204, 191, 204);
+}
+
+body::selection{
+    background-color: aquamarine;
+}
+
+body main section .title::selection{
+    background-color: rgba(16, 203, 53, 0.857);
+}
+
+::selection{
+    background-color:rgb(198, 46, 209);
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #ef476f;
+}
+
+.post button:active{
+    background-color: rgb(44, 213, 44);
+    color: #bcdc1e;
+}
+
+h2 + button{
+    font-size: 20px;
+    background-color: rgb(214, 91, 214);
+}
+
+.post button:hover{
+    background-color: red;
+    color: green;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: olivedrab;
+}
+button {
+    font-size: 30px;
+    background-color: #ef476f;
+}
+
+#login, #signup{
+    background-color: #073b4c;
+    color: #118ab2;
+}
+
+/* #signup{
+    background-color: #073b4c;
+    color: #118ab2;
+} */
+
+#signup:hover{
+    background-color: #2a9d8f;
+}

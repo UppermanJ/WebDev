@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+	<h2>Hijacking Searches</h2>
+	
+	<h3>Goole</h3>
+	<form action="https://www.google.com/search">
+		<input type="text" name="q">
+		<button>Search Google</button>
+	</form>
+
+	<h3>YouTube</h3>
+	<form action="https://www.youtube.com/results">
+		<input type="text" name="search_query">	
+		<button>Search YouTube</button>
+	</form>
+
+	<h2>More Inputs</h2>
+	<form action="">
+		<input type="checkbox" name="agree_tos" id="agree">
+		<label for="agree">Agree to all</label>
+		<button>Submit</button>
+		<p>
+			<label for="xs">XS:</label>
+			<input type="radio" name="size" id="xs" value="xs">
+			<label for="s">S:</label>
+			<input type="radio" name="size" id="s" value="s">
+			<label for="m">M:</label>
+			<input type="radio" name="size" id="m" value="m">
+		</p>
+	</form>
+
+	<form action="">
+		<p>
+			<label for="cheese">amount of Cheese</label>
+			<input type="range" id="cheese" name="cheese_level" step="7" min="1" value="34" max="100">
+		</p>
+		<button>Submit</button>
+		
+		<label for="meal">Please enter an entree</label>
+		<select name="meal" id="meal">
+			<option value="">--Select Restaurant--</option>
+			<option value="Vegetarian">Vegetarian</option>
+			<option value="Meat">Meat</option>
+		</select>
+		<button>Search YouTube</button>
+
+	</form>
+
+	<p>
+		<label for="requests">Any Special Requests?</label>
+		<textarea name="Requests?" id="requests" cols="10" rows="10" placeholder="Type here...">
+
+		</textarea>
+	</p>
+	
+	<div>
+		<input type="radio" id="YouTube" name="site1" value="YouTube"
+		 unchecked>
+		<label for="YouTube">YouTube</label>
+		
+	</div>
+</body>
+</html>
